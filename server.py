@@ -91,7 +91,7 @@ def post_name_screening(endpoint: str = "") -> Any:
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", "5000"))
+    port = int(os.environ.get("PORT", "44393"))
     host = os.environ.get("HOST", "localhost")
     logger.info("Starting Entity Master mock on %s:%s", host, port)
     app.run(host=host, port=port)
